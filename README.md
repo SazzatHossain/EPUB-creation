@@ -35,7 +35,13 @@ First open the file with Microsoft Word(Above 2010 recommended). If the file is 
 ## <a name="import_to_calibre">Import File to Calibre</a>
 * Open calibre Application.
 * Click On **Add books** option.
+
+<img src="images/import2calibre1.PNG"> 
+
 * Go to the directory on the doc/docx file which we want make an EPUB ebook.
+
+<img src="images/import2calibre2.PNG"> 
+
 * Select the file and open it.
 
 ## <a name="convert_to_epub">Convert File to EPUB</a>
@@ -43,15 +49,30 @@ First open the file with Microsoft Word(Above 2010 recommended). If the file is 
  
  * First select the book we uploaded.
  * The click on the **Convert books** option.
+ 
+ <img src="images/convert2epub1.PNG"> 
+
  * A new pop-up window will open. There are many options and many things we can do here. But we will simply fill up the options on the right seleting the metadata option. We can also add a **Book cover** from the left section.
+ 
+  <img src="images/convert2epub2.PNG"> 
+
  * After completing these steps check the Output format option from the top-right corner. If it is already selected to EPUB format then click the ok button from bottom-right corner to convert it to EPUB.
  
 ## <a name="edit_file">EDITING</a>
 After successfully convert the file to EPUB we can now edit/modify the EPUB file. To modify the epub file with calibre we should follow the following rules:
 
 * Put the mouse cursor on the converted EPUB or select the epub and put the mouse cursor on the option shown in below image.
+
+  <img src="images/editing1.PNG"> 
+  
+  or
+
+  <img src="images/editing2.PNG"> 
+
 * Right click on it and click on Edit book option.
 * A new window will open. It's the calibre editor. We can easily modify or create new epub book with this editor.
+
+  <img src="images/editing3.PNG"> 
 
 Lets go through the option of the editor. There are many option in the editor but we will go through the option we might need.
 EPUB is basically written in xhtml. So basic html and css idea is needed to edit a EPUB file.
@@ -68,11 +89,24 @@ See through the left option of the editor.
 If we want to add images in the epub we can upload and add the images through the following steps:
 
 * First click on the **'+'** option from the top-left corner shown below.
+
+  <img src="images/uploadimage1.PNG"> 
+
 * A pop-up will open. From here click on the **Import resource file(image/font/etc.)** option.
+
+  <img src="images/uploadimage2.PNG"> 
+
 * Navigate and select the image you want to upload. Click open.
+
+  <img src="images/uploadimage3.PNG"> 
+
 * Then click the **OK** option from the pop-up menu. See the Images directory from the left options whether the images has been uploaded or not.
 
+  <img src="images/uploadimage4.PNG"> 
+
 We can use this image in our epub through html **img** tag. We also can upload fonts through this process if we want.
+
+  <img src="images/image-responsive1.PNG"> 
 
 ## <a name="image_responsive">Images Responsive</a>
 
@@ -86,9 +120,15 @@ Let the image classname be **"calibre-image"**
     * width: 100%;
     * margin: 0;
     * padding: 0;
+    
+  <img src="images/image-responsive2.PNG"> 
+   
 By this the images will be responsive. Name all the images classname same. Then it will be applied to all the images.
 
 ## <a name="convert_again">Convert File again after Image Upload</a>
  
  After adding images the epub file size will be larger. So we have to convert it again to EPUB format to reduce size.
  We should follow the old step to convert this file again to EPUB.
+ 
+  <img src="images/convert2epub1.PNG"> 
+
