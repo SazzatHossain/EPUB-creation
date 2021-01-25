@@ -27,6 +27,11 @@ We will use Calibre because it has much more functionality than sigil.
  ## <a name="main_file_conversion">Convert Main File</a>
 
 First open the file with Microsoft Word(Above 2010 recommended). If the file is in DOCX format we do not have to follow this step. If this is in doc or other format we should save the file with the docx format extension. It will be easy to import and work on calibre if the file format is docx. **We should avoid PDF file cause it is not suitable format to make epub ebook.**
+
+<img src="images/save-as.PNG"> 
+<img src="images/format-change.PNG">
+
+
 ## <a name="import_to_calibre">Import File to Calibre</a>
 * Open calibre Application.
 * Click On **Add books** option.
